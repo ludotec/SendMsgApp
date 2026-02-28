@@ -13,3 +13,10 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+/app/src/main/res/drawable/*.png
