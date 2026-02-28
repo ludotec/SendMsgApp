@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
     private val message = "Hola! Soy Oscar. Llamame por favor"
 
     private val contacts = listOf(
-        Contact("Melania", "+5492954336989", R.drawable.melania),
-        Contact("Marina", "+5492954443482", R.drawable.marina),
-        Contact("Azucena", "+5492954392353", R.drawable.azucena),
-        Contact("Marta", "+5492954557850", R.drawable.marta),
-        Contact("Lorena", "+5492954557850", R.drawable.lorena),
-        Contact("Yudi", "+5492954535156", R.drawable.yudi)
+        Contact("Melania", "PHONE_NUMBER", R.drawable.melania),
+        Contact("Marina", "PHONE_NUMBER", R.drawable.marina),
+        Contact("Azucena", "PHONE_NUMBER", R.drawable.azucena),
+        Contact("Marta", "PHONE_NUMBER", R.drawable.marta),
+        Contact("Lorena", "PHONE_NUMBER", R.drawable.lorena),
+        Contact("Yudi", "PHONE_NUMBER", R.drawable.yudi)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
